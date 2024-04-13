@@ -35,7 +35,7 @@ public class ClientController {
     private IndustryService industryService;
     @Autowired
     private TypeService typeService;
-
+   //ghfyjstfuygf
 
     @PostMapping("/save")
     public ResponseEntity<?> createClient(@RequestBody @Valid ClientDto dto, BindingResult result){
